@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/360VS-Client.iml" filepath="$PROJECT_DIR$/.idea/modules/360VS-Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/360VS-Client.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/360VS-Client.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer/extensions/cast/360VS-Client.exoplayer-extension-cast.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer/extensions/cast/360VS-Client.exoplayer-extension-cast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer/extensions/cronet/360VS-Client.exoplayer-extension-cronet.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer/extensions/cronet/360VS-Client.exoplayer-extension-cronet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer/extensions/ffmpeg/360VS-Client.exoplayer-extension-ffmpeg.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer/extensions/ffmpeg/360VS-Client.exoplayer-extension-ffmpeg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer/extensions/flac/360VS-Client.exoplayer-extension-flac.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer/extensions/flac/360VS-Client.exoplayer-extension-flac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer/extensions/gvr/360VS-Client.exoplayer-extension-gvr.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer/extensions/gvr/360VS-Client.exoplayer-extension-gvr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer/extensions/ima/360VS-Client.exoplayer-extension-ima.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer/extensions/ima/360VS-Client.exoplayer-extension-ima.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer/extensions/jobdispatcher/360VS-Client.exoplayer-extension-jobdispatcher.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer/extensions/jobdispatcher/360VS-Client.exoplayer-extension-jobdispatcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer/extensions/leanback/360VS-Client.exoplayer-extension-leanback.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer/extensions/leanback/360VS-Client.exoplayer-extension-leanback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer/extensions/mediasession/360VS-Client.exoplayer-extension-mediasession.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer/extensions/mediasession/360VS-Client.exoplayer-extension-mediasession.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer/extensions/okhttp/360VS-Client.exoplayer-extension-okhttp.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer/extensions/okhttp/360VS-Client.exoplayer-extension-okhttp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer/extensions/opus/360VS-Client.exoplayer-extension-opus.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer/extensions/opus/360VS-Client.exoplayer-extension-opus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer/extensions/rtmp/360VS-Client.exoplayer-extension-rtmp.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer/extensions/rtmp/360VS-Client.exoplayer-extension-rtmp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer/extensions/vp9/360VS-Client.exoplayer-extension-vp9.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer/extensions/vp9/360VS-Client.exoplayer-extension-vp9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer/library/all/360VS-Client.exoplayer-library.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer/library/all/360VS-Client.exoplayer-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer/library/core/360VS-Client.exoplayer-library-core.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer/library/core/360VS-Client.exoplayer-library-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer/library/dash/360VS-Client.exoplayer-library-dash.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer/library/dash/360VS-Client.exoplayer-library-dash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer/library/hls/360VS-Client.exoplayer-library-hls.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer/library/hls/360VS-Client.exoplayer-library-hls.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer/library/smoothstreaming/360VS-Client.exoplayer-library-smoothstreaming.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer/library/smoothstreaming/360VS-Client.exoplayer-library-smoothstreaming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer/library/ui/360VS-Client.exoplayer-library-ui.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer/library/ui/360VS-Client.exoplayer-library-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer/testutils/360VS-Client.exoplayer-testutils.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer/testutils/360VS-Client.exoplayer-testutils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer/testutils_robolectric/360VS-Client.exoplayer-testutils-robolectric.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer/testutils_robolectric/360VS-Client.exoplayer-testutils-robolectric.iml" />
+    </modules>
+  </component>
+</project>
