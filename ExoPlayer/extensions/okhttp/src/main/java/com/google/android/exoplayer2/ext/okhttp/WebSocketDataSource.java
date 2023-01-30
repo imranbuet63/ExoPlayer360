@@ -105,7 +105,7 @@ public class WebSocketDataSource extends BaseDataSource implements HttpDataSourc
 
     int mediaLen = 0;
     byte[] mediadata = null;
-    PipedInputStream mediaDataInputStream = new PipedInputStream(16000000); // 655350; // 15 * 1MB =
+    PipedInputStream mediaDataInputStream = new PipedInputStream(160000000); // 655350; // 150 * 1MB =
     PipedOutputStream mediaDataOutputStream = new PipedOutputStream();
 
     long bufferedTimeline = 0;
