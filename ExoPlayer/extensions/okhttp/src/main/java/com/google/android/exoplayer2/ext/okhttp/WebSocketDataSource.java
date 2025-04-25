@@ -184,7 +184,8 @@ public class WebSocketDataSource extends BaseDataSource implements HttpDataSourc
         this.requestProperties = new RequestProperties();
         this.player = player;
 
-        logFile = new File("/sdcard/", "log-exoplayer-net-" + SystemClock.elapsedRealtime() + ".txt");
+        long unixTime = System.currentTimeMillis(); // Unix timestamp in milliseconds //Imran
+        logFile = new File("/sdcard/ExoPlayer360/", "log-exoplayer-net-" + unixTime + ".txt");
         try {
             fos = new FileOutputStream(logFile);
             logStream = new BufferedWriter(new OutputStreamWriter(fos));
@@ -411,7 +412,9 @@ public class WebSocketDataSource extends BaseDataSource implements HttpDataSourc
                     }
                     if (msgType.contains("server-video")) {
                         isOpenCV.open();
+                        long unixTime = System.currentTimeMillis();
                         ackMsg = "{\"initId\": " + initId +
+                                ", \"unix_timestamp\": " + unixTime +
                                 ", \"videoBuffer\": " + videoBuffer +
                                 ", \"audioBuffer\": " + audioBuffer +
                                 ", \"cumRebuffer\": " + cumRebuffer +
@@ -427,7 +430,7 @@ public class WebSocketDataSource extends BaseDataSource implements HttpDataSourc
                         webSocket.send(ackMsg);
                     }
                     try {
-                        logStream.write("{\"time\":" + SystemClock.elapsedRealtime() + ", \"ack\":" + ackMsg + "}");
+                        logStream.write("{\"time\":" + System.currentTimeMillis() + ", \"ack\":" + ackMsg + "}");
                         logStream.newLine();
                         logStream.flush();
                     } catch (Exception e) {

@@ -121,7 +121,8 @@ public class AnalyticsCollector
     mediaPeriodQueueTracker = new MediaPeriodQueueTracker();
     window = new Window();
 
-    logFile = new File("/sdcard/", "log-exoplayer-" + SystemClock.elapsedRealtime()  + ".txt");
+    long unixTime = System.currentTimeMillis();
+    logFile = new File("/sdcard/ExoPlayer360/", "log-exoplayer-" + unixTime  + ".txt");
     try {
       fos = new FileOutputStream(logFile);
       logStream = new BufferedWriter(new OutputStreamWriter(fos));

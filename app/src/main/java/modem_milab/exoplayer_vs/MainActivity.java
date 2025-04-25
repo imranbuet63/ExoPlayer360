@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
                 Util.getUserAgent(this, "exo-demo"), player);
 
         ExtractorMediaSource mediaSource = new ExtractorMediaSource.Factory(okHttpDataSourceFactory)
-                .createMediaSource(Uri.parse("ws://52.3.223.35:50001/"));
+                .createMediaSource(Uri.parse("ws://192.168.50.218:50001/"));
 
 
         player.prepare(mediaSource);
